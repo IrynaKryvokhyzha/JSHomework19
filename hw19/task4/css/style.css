@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,700');
+
+body{
+	font-family: 'Lato';
+	background-color: rgb(17, 13, 58);
+	font-size: 20px;
+	font-weight: 300;
+	padding: 20px;
+
+
+
+}
+.container{
+max-width: 100%;
+}
+.star-img{
+	position: absolute;
+	
+
+ } 
+@keyframes star{
+	0%
+	{
+		transform: scale(0);
+	}
+	100%
+	{
+		transform: scale(1);
+	}
+}

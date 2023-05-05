@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,700');
+
+body{
+	font-family: 'Lato';
+	background-color: rgb(213, 204, 175);
+	font-size: 20px;
+	font-weight: 300;
+	padding: 20px;
+
+
+}
+.container{
+	max-width: 100%;
+}
+.snowflake{
+	animation: snowflake-fall 1s linear forwards;
+
+} 
+ @keyframes snowflake-fall{
+	0%
+	{
+		transform: translateY(-800px);
+	}
+	100%
+	{
+		transform: translateY(1500px) rotate(300deg);
+	}
+}
